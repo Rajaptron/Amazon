@@ -5,10 +5,10 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import org.apache.commons.io.FileUtils;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+
 import com.amazon.qa.base.TestBase;
 
 import jxl.Sheet;
@@ -17,7 +17,7 @@ import jxl.read.biff.BiffException;
 
 
 
-public class TestUtill extends TestBase{
+public class TestUtill extends TestBase {
 
 	public static WebDriver driver;
 
