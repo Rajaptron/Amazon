@@ -6,8 +6,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -22,5 +24,13 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/Eclipse-workspace/Amazon/src/main/java/com/amazon/qa/utils/Jars/poi-4.1.0/poi-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse-workspace/Amazon/src/main/java/com/amazon/qa/utils/Jars/poi-4.1.0/poi-examples-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse-workspace/Amazon/src/main/java/com/amazon/qa/utils/Jars/poi-4.1.0/poi-excelant-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse-workspace/Amazon/src/main/java/com/amazon/qa/utils/Jars/poi-4.1.0/poi-ooxml-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse-workspace/Amazon/src/main/java/com/amazon/qa/utils/Jars/poi-4.1.0/poi-ooxml-schemas-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse-workspace/Amazon/src/main/java/com/amazon/qa/utils/Jars/poi-4.1.0/poi-scratchpad-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse-workspace/Amazon/src/main/java/com/amazon/qa/utils/Jars/poi-4.1.0/ooxml-lib/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse-workspace/Amazon/src/main/java/com/amazon/qa/utils/Jars/poi-4.1.0/ooxml-lib/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -22,7 +22,7 @@ public class HomePage extends TestBase {
 	
 	//***********************Page Factory ----OR(Object repo)*******************************************
 	
-	@FindBy(xpath="//div[@id ='nav-logo']/a[1]") 
+	@FindBy(xpath="//div[@id='nav-logo']") 
 	static WebElement Logo;
 	
 	
@@ -54,8 +54,6 @@ public class HomePage extends TestBase {
 		
 		
 	}
-	
-	
 	
 	public static String Selectcategory() throws InterruptedException {
 		

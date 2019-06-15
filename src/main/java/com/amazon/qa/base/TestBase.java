@@ -9,16 +9,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestBase {
 	
-	
-	
 	public static WebDriver driver;
 	public static Properties prop;
 	
 	
 	public TestBase() {
-		
-		
-		
 			
 			try {
 				prop= new Properties();

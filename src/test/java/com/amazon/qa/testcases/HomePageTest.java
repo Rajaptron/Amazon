@@ -28,24 +28,15 @@ public class HomePageTest extends TestBase {
 	
 	//**********************************************Page Test******************
 	@Test
-	
 	public void VerifyLogoTest() {
-		
-		boolean hplogo = hp.VerifyHomePageLogo();
-		
-		Assert.assertTrue(hplogo);
+	boolean hplogo = hp.VerifyHomePageLogo();	
+	Assert.assertTrue(hplogo);
 		
 	}
-	
 	@Test
 	public void VerifySelectedOptionSearch() throws InterruptedException {
-		
-		
-		
 		String CatVal = hp.Selectcategory();
 		Assert.assertEquals(CatVal, "Kindle Store");
-		
-		
 	}
 	
 	
