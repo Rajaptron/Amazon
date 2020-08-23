@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.qa.testcases.LoginPageTest">
+      <class name="com.amazon.qa.testcases.Log4jIntegration">
         <methods>
-          <include name="Setup"/>
-          <include name="teardown"/>
-          <include name="LoginAppTest" invocation-numbers="1 2"/>
+          <include name="tearDown"/>
+          <include name="freeCrmTitleTest"/>
+          <include name="setup"/>
+          <include name="freemCRMLogoTest"/>
         </methods>
-      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+      </class> <!-- com.amazon.qa.testcases.Log4jIntegration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

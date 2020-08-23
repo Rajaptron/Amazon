@@ -10,7 +10,7 @@
         <methods>
           <include name="Setup"/>
           <include name="teardown"/>
-          <include name="LoginAppTest" invocation-numbers="1 2"/>
+          <include name="LoginAppTest" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
     </classes>

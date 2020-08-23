@@ -1,6 +1,6 @@
 package com.amazon.qa.testcases;
-import java.io.IOException;
 
+import java.io.IOException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -21,9 +21,6 @@ public class LoginPageTest extends TestBase {
 	
 	static LoginPage login;
 	
-	
-	
-	
 	public LoginPageTest() throws IOException {
 		super();
 		PageFactory.initElements(driver, this);
@@ -36,19 +33,17 @@ public class LoginPageTest extends TestBase {
 		login =new 	LoginPage();
 				}
 		
-	
-	
 	@DataProvider(name="credential")
 	public Object[][] Addcategorydata() {
 		Object[][] arrayObject = TestUtill.getExcelData(System.getProperty("user.dir")
-				+ "\\src\\main\\java\\Com\\Amazon\\qa\\data\\LoginData.xls","Sheet1");
+				+ "/src/main/java/com/amazon/qa/data/LoginData.xls","Sheet1");
 		return arrayObject;
 	}
 	
 	@Test(dataProvider="credential")
    public static void LoginAppTest(String username,String password) throws InterruptedException {
-	   String Logo = LoginPage.Loginapp(username, password);
-	  Assert.assertEquals(Logo, "Your Orders");
+	   String title = LoginPage.Loginapp(username, password);
+	  Assert.assertEquals(title, "Your Orders");
    }
 	
 	
